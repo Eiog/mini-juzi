@@ -1,0 +1,30 @@
+{
+  "extends": "@eiog/ts-config/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "~/*": [
+        "src/*"
+      ]
+    },
+    "types": [
+      "vitest/globals",
+      "@dcloudio/types",
+      "unplugin-icons/types/vue",
+      "@uni-helper/uni-app-types",
+      "@intlify/unplugin-vue-i18n/messages"
+    ]
+  },
+  "include": [
+    "*.d.ts",
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+
+}
