@@ -5,14 +5,13 @@
 
 export interface NavigateToOptions {
   url: "/pages/index" |
-       "/pages/about" |
-       "/pages/auth" |
-       "/pages/login";
+       "/pages/download-video" |
+       "/pages/tools";
 }
 interface RedirectToOptions extends NavigateToOptions {}
 
 export interface SwitchTabOptions {
-  url: "/pages/index" | "/pages/about"
+  url: "/pages/index" | "/pages/tools"
 }
 
 type ReLaunchOptions = NavigateToOptions | SwitchTabOptions;

@@ -1,11 +1,11 @@
 {
-  "name": "uni-app-starter",
+  "name": "mini-juzi",
   "version": "0.0.1",
   "private": true,
   "description": "",
   "author": "Eiog",
   "license": "MIT",
-  "homepage": "https://github.com/Eiog/uni-app-starter",
+  "homepage": "https://github.com/Eiog/mini-juzi",
   "scripts": {
     "dev": "uni",
     "build": "uni build",

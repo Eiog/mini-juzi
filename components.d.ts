@@ -18,9 +18,5 @@ declare module '@vue/runtime-core' {
     NutNotify: typeof import('nutui-uniapp/components/notify/notify.vue')['default']
     NutToast: typeof import('nutui-uniapp/components/toast/toast.vue')['default']
     Page: typeof import('./src/layouts/page.vue')['default']
-    VinButton: typeof import('@vingogo/uni-ui/lib/components/button/index.vue')['default']
-    VinIcon: typeof import('@vingogo/uni-ui/lib/components/icon/index.vue')['default']
-    WdButton: typeof import('wot-design-uni/components/wd-button/wd-button.vue')['default']
-    WdIcon: typeof import('wot-design-uni/components/wd-icon/wd-icon.vue')['default']
   }
 }

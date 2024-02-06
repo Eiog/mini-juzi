@@ -26,11 +26,15 @@ export default defineUniPages({
     list: [
       {
         pagePath: 'pages/index',
-        text: '首页',
+        text: '发现',
+        iconPath: '/static/orange.png',
+        selectedIconPath: '/static/orange.png',
       },
       {
-        pagePath: 'pages/about',
-        text: '关于',
+        pagePath: 'pages/tools',
+        text: '工具',
+        iconPath: '/static/banana.png',
+        selectedIconPath: '/static/banana.png',
       },
     ],
   },

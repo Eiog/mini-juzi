@@ -7,27 +7,20 @@
     {
       "path": "pages/index",
       "type": "home",
-      "name": "index",
-      "auth": true,
-      "meta": {
-        "auth": true
+      "style": {
+        "navigationBarTitleText": "MINI-JUZI"
       }
     },
     {
-      "path": "pages/about",
+      "path": "pages/download-video",
       "type": "page"
     },
     {
-      "path": "pages/auth",
+      "path": "pages/tools",
       "type": "page",
-      "middleware": [
-        "auth"
-      ]
-    },
-    {
-      "path": "pages/login",
-      "type": "page",
-      "name": "login"
+      "style": {
+        "navigationBarTitleText": "MINI-TOOLS"
+      }
     }
   ],
   "middleware": [
@@ -51,11 +44,15 @@
     "list": [
       {
         "pagePath": "pages/index",
-        "text": "首页"
+        "text": "发现",
+        "iconPath": "/static/orange.png",
+        "selectedIconPath": "/static/orange.png"
       },
       {
-        "pagePath": "pages/about",
-        "text": "关于"
+        "pagePath": "pages/tools",
+        "text": "工具",
+        "iconPath": "/static/banana.png",
+        "selectedIconPath": "/static/banana.png"
       }
     ]
   },

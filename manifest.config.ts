@@ -1,10 +1,10 @@
 import { defineManifestConfig } from '@uni-helper/vite-plugin-uni-manifest'
 
 export default defineManifestConfig({
-  'name': 'uni-app-starter',
+  'name': 'mini-juzi',
   'appid': '__UNI__3F6C36D',
   'description': '',
-  'versionName': '1.0.0',
+  'versionName': '0.1.0',
   'versionCode': '100',
   'transformPx': false,
   /* 5+App特有相关 */

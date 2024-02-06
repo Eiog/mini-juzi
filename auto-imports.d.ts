@@ -290,6 +290,7 @@ declare global {
   const useTimestamp: typeof import('@vueuse/core')['useTimestamp']
   const useTitle: typeof import('@vueuse/core')['useTitle']
   const useToNumber: typeof import('@vueuse/core')['useToNumber']
+  const useToPage: typeof import('./src/composables/useToPage')['useToPage']
   const useToString: typeof import('@vueuse/core')['useToString']
   const useToggle: typeof import('@vueuse/core')['useToggle']
   const useTransition: typeof import('@vueuse/core')['useTransition']
@@ -622,6 +623,7 @@ declare module 'vue' {
     readonly useTimestamp: UnwrapRef<typeof import('@vueuse/core')['useTimestamp']>
     readonly useTitle: UnwrapRef<typeof import('@vueuse/core')['useTitle']>
     readonly useToNumber: UnwrapRef<typeof import('@vueuse/core')['useToNumber']>
+    readonly useToPage: UnwrapRef<typeof import('./src/composables/useToPage')['useToPage']>
     readonly useToString: UnwrapRef<typeof import('@vueuse/core')['useToString']>
     readonly useToggle: UnwrapRef<typeof import('@vueuse/core')['useToggle']>
     readonly useTransition: UnwrapRef<typeof import('@vueuse/core')['useTransition']>
@@ -947,6 +949,7 @@ declare module '@vue/runtime-core' {
     readonly useTimestamp: UnwrapRef<typeof import('@vueuse/core')['useTimestamp']>
     readonly useTitle: UnwrapRef<typeof import('@vueuse/core')['useTitle']>
     readonly useToNumber: UnwrapRef<typeof import('@vueuse/core')['useToNumber']>
+    readonly useToPage: UnwrapRef<typeof import('./src/composables/useToPage')['useToPage']>
     readonly useToString: UnwrapRef<typeof import('@vueuse/core')['useToString']>
     readonly useToggle: UnwrapRef<typeof import('@vueuse/core')['useToggle']>
     readonly useTransition: UnwrapRef<typeof import('@vueuse/core')['useTransition']>
